@@ -1,10 +1,4 @@
-# instruksi-magang
 
-Perfect! Ini **README simpel** yang cuma gabungan dari 2 file kamu:
-
----
-
-```markdown
 # Serial Communication ROS2 - ROV Control
 
 ROS2 serial bridge untuk kontrol ROV dengan joystick ke STM32.
@@ -59,7 +53,7 @@ ls /dev/ttyACM*
 code ~/SerCom_banyu/src/serial_to_cmdvel/src/sercom_to_cmdvel.cpp
 ```
 
-Ganti baris:
+**Ganti baris:**
 ```
 serial_.open("/tmp/ttyV0");     // Hapus ini
 serial_.open("/dev/ttyACM0");   // Ganti jadi ini
@@ -104,10 +98,3 @@ ros2 run serial_to_cmdvel sercom_to_cmdvel
 **Author:** Yuwand  
 **Date:** 17 November 2025
 ```
-
-***
-
-**Ini README yang super simpel dan langsung to the point!** Tinggal copy-paste ke GitHub. 🚀
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/143511396/8c3066d0-fe82-4301-9e60-98d11fad9ce3/virtualport_sercom)
-[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/143511396/b94e03fc-0625-454f-b594-188a9134ad53/sercom_STM32)
