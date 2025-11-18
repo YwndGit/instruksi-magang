@@ -1,8 +1,10 @@
-Oke, ini versi **super simple**!
+Wkwkwk oke, aku perbaiki formatnya! Ini versi yang **bener**:
 
 ***
 
-## **README.md (Short Version)**
+## **README.md**
+
+Simpan file ini di `~/ros2ws/README.md`:
 
 ```markdown
 # YOLO + OpenVINO + ROS 2
@@ -62,5 +64,3 @@ source install/setup.bash
 
 **Author:** Yuwand | **Date:** Nov 18, 2025
 ```
-
-***
